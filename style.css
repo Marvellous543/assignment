@@ -1,124 +1,180 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 *{
-    margin: auto;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "poppins", sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
 }
 
 header{
-    box-shadow: 0px 0.2px 0.15px 0.2px;
+    box-shadow:0 0 5px rgba(0,0,0,.2);
 }
 
 nav{
-    min-height: 80px;
-    width: 80%;
+    width:80%;
+    height:80px;
     margin:auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
 
 .logo{
-    height: 75px;
+    height:70px;
 }
 
 .nav-links{
-    display: flex;
-    list-style-type: none;
-    gap: 20px;
+    display:flex;
+    gap:20px;
+    list-style:none;
 }
 
-.nav-links li a{
-    text-decoration: none;
-    color: #081F89;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.hero-section{
-    /* border: 1px solid yellow; */
-    font-size: 37px;
-    font-weight: 600;
-    line-height: 80px;
-    width: 45%;
-    margin-top: 75px; 
-    min-height: 50dvh;
-}
-
-.hero-img{
-    /* border: 1px solid blue; */
-    height: 500px;
-    display: flex;
-    width: 40%;
+.nav-links a{
+    text-decoration:none;
+    color:#081F89;
+    font-size:14px;
+    font-weight:600;
 }
 
 section{
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 70px;
-    /* width: 100%; */
-    background-image: linear-gradient(to right, white, #FFFDF3);
-    padding-left: 50px;
+    width:80%;
+    margin:60px auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-image:linear-gradient(to right,white,#FFFDF3);
+}
+
+.hero-section{
+    width:45%;
+}
+
+.hero-section h1{
+    font-size:64px;
+    line-height:75px;
+    color:#000E42;
+}
+
+.hero-section p{
+    margin-top:20px;
+    color:#666;
+    line-height:30px;
 }
 
 .btn{
-    background-color: #081F89;
-    color: white;
-    border: none;
-    padding: 17px 30px;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    margin-top: 20px;
-    border-radius: 10px;
+    margin-top:30px;
+    padding:18px 35px;
+    background:#00208A;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
 }
- 
+
+.hero-img{
+    width:45%;
+}
+
+.hero-img img{
+    width:100%;
+}
+
 .header2{
-    font-size: 42px;
-    font-weight: 600;
-    padding-left: 100px;
-    color: #050754;
-}
-
-.body{
-    display: flex;
-    justify-content: space-between;
-}
-
-.img-1{ 
-    border: 1px solid red;
-    height: 300px;
-    width: 300px;
-    background-image: url(https://sqi.edu.ng/wp-content/uploads/2023/06/college.jpg);
-    background-size: cover;
-    margin-right: 5px;
-}
-
-.img-2{ 
-    border: 1px solid red;
-    height: 300px;
-    width: 300px;
-    background-image: url(https://sqi.edu.ng/wp-content/uploads/2023/06/prof.jpg);
-    background-size: cover;
-    margin-right: 5px;
-}
-
-.img-3{ 
-    border: 1px solid red;
-    height: 300px;
-    width: 300px;
-    background-image: url(https://sqi.edu.ng/wp-content/uploads/2023/06/certificate.jpg);
-    background-size: cover;
+    width:80%;
+    margin:70px auto 50px;
+    color:#000E42;
+    font-size:48px;
 }
 
 .img-container{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 100px;
-    padding-top: 30px;
-    gap: 50px;
+    width:80%;
+    margin:auto;
+    display:flex;
+    gap:40px;
+    align-items:stretch;
 }
 
+.card{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+}
+
+.card img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+}
+
+.inter{
+    margin-top:25px;
+    flex:1;
+    display:flex;
+    flex-direction:column;
+}
+
+.inter h3{
+    color:#000E42;
+    font-size:42px;
+    line-height:48px;
+    margin-bottom:20px;
+}
+
+.inter p{
+    color:#666;
+    font-size:15px;
+    line-height:28px;
+}
+
+.baar{
+    margin-top:auto;
+    width:max-content;
+    text-decoration:none;
+    color:#26364E;
+    font-size:16px;
+    font-weight:600;
+    border-bottom:2px solid #26364E;
+    margin-top:50px;
+}
+
+.details{
+    margin-top:50px;
+}
+
+.head3{
+    color:#000E42;
+    font-size:18px;
+    font-weight:700;
+}
+
+.duration-text{
+    margin-top:20px;
+    color:#666;
+    font-size:16px;
+    line-height: 24px;
+}
+
+.skip{
+    border-bottom:2px solid #B9E0FB;
+    /* margin-top:20px; */
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.heading{
+    width:80%;
+    margin-left: 120px;
+    margin-top: 30px;
+    color: #333333;
+    font-size:48px;
+}
+
+.duration{
+     color:#666;
+    font-size:16px;
+    line-height: 24px;
+    margin-left: 125px;
+}
