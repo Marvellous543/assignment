@@ -6,28 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SQI Clone</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/71479ed73b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <header>
+    <header class="header">
         <nav>
-            <img src="media/copy.jpg" alt="" class="logo">
-
+            <img src="https://edu.sqi.ng/wp-content/uploads/2019/01/co.jpg" alt="" class="logo">
             <ul class="nav-links">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Programmes</a></li>
-                <li><a href="#">Admissions</a></li>
-                <li><a href="#">E-Portal</a></li>
+                <li class="f-dropdown-p"><a href="#">About  <i class="fa-solid fa-angle-down"></i>
+                <div class="f-dropdown">
+                    <div><a href="https://sqi.edu.ng/our-story/">our story</a></div>
+                    <div><a href="https://sqi.edu.ng/our-team/">our team</a></div>
+                    <div><a href="https://sqi.edu.ng/campus-info/">campus info</a></div>
+                </div></a></li>
+                <li class="s-dropdownp"><a href="#">Programmes  <i class="fa-solid fa-angle-down"></i>
+                <div class="s-dropdown">
+                    <!-- <div style="width: 80%;"> -->
+                    <div><a href="https://sqi.edu.ng/pre-nd/">Pre-National Diploma</a></div>
+                    <div><a href="https://sqi.edu.ng/nd/">National Diploma</a></div>
+                    <div><a href="https://sqi.edu.ng/procert/">Professional Diploma Program</a></div>
+                    <div><a href="https://sqi.edu.ng/executive-professional-certificate-programme/">Executive Professional Certificate</a></div>
+                    <div><a href="https://sqi.edu.ng/executive-professional-certificate-programme/">Programme</a></div>
+                    <div><a href="https://sqi.edu.ng/bsc/">Bachelor Degree | LAUTECH PT</a></div>
+                    <div><a href="https://sqi.edu.ng/post-utme/">Post-UTME</a></div></div>
+                   
+                </div></a></li>
+                <li class="t-dropdownp"><a href="#">Admissions  <i class="fa-solid fa-angle-down"></i>
+                <div class="t-dropdown">
+                    <div class="t-dropdown-inner">
+                    <div><a href="https://sqi.edu.ng/apply-for-a-programme/">Apply for a Programme</a></div>
+                    <div><a href="https://sqi.edu.ng/mode-of-study/">Mode of Study</a></div>
+                    <div><a href="https://sqi.edu.ng/tuition/">Tuition</a></div>
+                    <div><a href="https://drive.google.com/file/d/1w_itppr3K0MMy5Sdf8uFkCO7eCyAYiRf/view?usp=sharing">Student’sHandbook</a></div>
+                    <div><a href="https://sqi.edu.ng/frequently-asked-questions/">Frequently Asked Questions</a></div>
+                    </div>
+                </div></a></li>
+                <li class="for-dropdownp"><a href="#">E-Portal <i class="fa-solid fa-angle-down"></i></a>
+                <div class="for-dropdown">
+                    <div><a href="https://scict.edossier.app/student-portal">Student</a></div>
+                    <div><a href="https://scict.edossier.app/admin">Staff</a></div>
+                </div></li>
                 <li><a href="#">SQI Scholarship</a></li>
                 <li><a href="#">News</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+            <div class="menu-bar"><i class="fa-solid fa-bars"></i></div>
         </nav>
     </header>
 
 
-    <section>
+    <section class="sect">
         <div class="hero-section">
             <h1>Study to become a global talent</h1>
 
@@ -36,7 +66,9 @@
                 industry experts in an accredited institution.
             </p>
 
-            <button class="btn">Start Now</button>
+            <button class="icon-btn">
+                <span>Start Now </span>
+                <i class="icon fa-solid fa-chevron-right"></i></button>
         </div>
 
         <div class="hero-img">
@@ -63,7 +95,10 @@
                     of Education.
                 </p>
 
-                <a href="#" class="baar">Learn More</a>
+                <a href="#" class="baar" style="border-bottom: 2px solid ;">
+                    Learn More
+                     <i class="ico fa-solid fa-chevron-right"></i>
+                </a>
             </div>
 
             <div class="details">
@@ -123,7 +158,9 @@
                     courses offered in SQI College of ICT.
                 </p>
 
-                <a href="#" class="baar">Learn More</a>
+                <a href="#" class="baar" style="border-bottom: 2px solid ;">
+                    Learn More <i class="ico fa-solid fa-chevron-right"></i>
+                </a>
             </div>
 
             <div class="details">
@@ -189,7 +226,9 @@
                     courses offered in SQI College of ICT.
                 </p>
 
-                <a href="#" class="baar">Learn More</a>
+                <a href="#" class="baar" style="border-bottom: 2px solid ;">
+                    Learn More <i class="ico fa-solid fa-chevron-right"></i>
+                </a>
             </div>
 
             <div class="details">
@@ -234,11 +273,535 @@
 
         </div>
     </div>
-    <div>
-        <h2 class="heading">Our Top Courses</h2>
-        <p class="duration">Take a look at some of our popular courses</p>
-        <a href="#" style="color: #39398E; margin-: 100px;">View all Courses</a>
+    <section class="top-courses">
+        <div class="tc-container">
+            <div class="tc-text">
+                <h1 style="font-size: 48px; line-height: 57.6px; font-weight: 600;">Our Top Courses</h1>
+                <p class="duration-text">Take a look at some of our popular courses</p>
+                <a href="" style="font-weight: 600;">View All Courses</a>
+            </div>
+            <div class="tc-se">
+                <div class="tc-se-inner">
+
+                    <img src="https://sqi.edu.ng/wp-content/uploads/2023/01/software-engineering-630x330-1.webp" alt="">
+
+                    <div>
+                        <h2>Software Engineering (<span style="color: #FE6F10;">With Ai</span>)</h2>
+                        <p style="margin-top: 30px;">Software Engineering is one of the most in-demand jobs across the
+                            globe today.</p>
+                        <p>Software Engineers are also known as programmers, developers or coders. They are the one5
+                            behind all the apps and software you use today either on your ….</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tp-se">
+                <div class="tp-se-inner">
+                    <img src="https://sqi.edu.ng/wp-content/uploads/2023/03/product.jpg" alt="">
+
+                    <div>
+                        <h2>UI/UX – Product Design (<span style="color: #FE6F10;">With Ai</span>)</h2>
+                        <p>More than ever before individuals and businesses are relying on digital products and
+                            services. From online meeting tools to finance, from e-commerce platforms to healthcare and
+                            food apps.</p>
+                        <p>Making an intuitive digital product design is even more import at this time as it…</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tc-design"></div>
+        </div>
+        <div class="tc-container">
+            <div class="ta-se">
+                <div class="tp-se-inner">
+                    <div>
+                        <img src="https://sqi.edu.ng/wp-content/uploads/2023/01/DATA-SQI.jpg" alt="">
+                        <h2>Data Science & Analysis (<span style="color: #FE6F10;">With Ai</span>)</h2>
+                        <p>The eruption of data is transforming indiviuals and businesses. Companies either big or small
+                            are now expecting their business decisions to be based on data-led insight.</p>
+                        <p>Data specialists have a tremendous impact on…</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tm-se">
+                <div class="tp-se-inner">
+                    <div>
+                        <img src="https://sqi.edu.ng/wp-content/uploads/2023/03/digital-literacy.jpg" alt="">
+                        <h2>Digital Workplace Proficiency (<span style="color: #FE6F10;">With Ai</span>)</h2>
+                        <p>This course is designed to prepare you for success in a modern world full of computers—not
+                            only the traditional computers such as desktop and notebook PCs but also computers that you
+                            interact with in other places too, like your bank’s ATM or your employer’s computerized cash
+                            register.</p>
+                        <p>In this course, you will learn about the technologies that drive our computerized society…
+                        </p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h2 class="headd">Our alumni work at world-class companies around the world including</h2>
+    <div class="image-flex">
+        <div class="images">
+            <div style="margin-left: 150px;">
+                <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/google.png" alt="">
+            </div>
+            <div style="padding-left: 150px;">
+                <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/Paystack.png" alt="">
+            </div>
+            <div style="padding-left: 150px;">
+                <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/edozzier.png" alt="">
+            </div>
+        </div>
+        <div>
+            <div>
+                <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/Interswitch.png" alt="">
+            </div>
+            <div>
+                <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/brewery.png" alt="">
+            </div>
+            <div>
+                <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/moneymie.png" alt="">
+            </div>
+        </div>
+        <div>
+            <div>
+                <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/Andela-log-landscape-blue-400px.png" alt="">
+            </div>
+            <div>
+                <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/Wema-Bank-Logo.png" alt="">
+            </div>
+            <div>
+                <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/Nigerian_Army.png" alt="">
+            </div>
+        </div>
+        <div class="images">
+            <div>
+                <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/Microsoft_logo.png" alt="">
+            </div>
+            <div>
+                <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/clan-logo.png" alt="">
+            </div>
+            <div>
+                <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/aella-credit.png" alt="">
+            </div>
+        </div>
     </div>
+
+    <div class="bottom-container">
+        <div class="bottom-border">
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HgC6bjMbqpw?si=-vWf2uEPMM8nmfbP"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                    style="width: 400px; height: 270px; border-radius: 30px;"></iframe>
+            </div>
+            <div class="bottom-text">
+                <h1 style="font-size: 48px; font-weight: 700; padding-bottom: 10px;">Take a Tour</h1>
+                <p style="line-height: 28.8px; font-weight: 500;">Our campus is a living centre for innovation and
+                    creativity for sustainability. We love showing students our campus and allowing them to see, hear
+                    and feel the excitement that comes with being part of the Central community which is an atmosphere
+                    that is open-minded, always exciting, and filled with academic excellence.</p>
+                <button class="button">
+                    Apply Now <i class="icon fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <section class="seventh-section">
+    <h2 class="s-s-h2">Testimonials</h2>
+    <p class="s-s-p">Read what our current students and alumni have to say about their SQI experience.</p>
+    <div class="s-s-parent">
+    <div class="s-s-f-b">
+        <div style="padding-left: 120px;"><img src="https://lh3.googleusercontent.com/places/AAcXr8o3QIDwJ6rZBswrekAOU16lGdxZTU6hVAbrHfF33yW9DLiOxUHGH4Xw_iG3njJpZ-bjT8tQeeb-Dr_JDXt3frw66HapCb1NkJ4=s1600-w300-h300" alt="" class="s-s-f-bimg"></div>
+        <div class="s-s-f-box-inner">
+        <div><a href="" style="font-size: 16px; font-weight: 700; color: black;">SQI College of ICT IBADAN</a></div>
+        <span style="font-size: 21px; font-weight: 600; color: #fb8e55;">4.9</span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        <div style="font-size: 14px; font-weight: 400;">Based on 84 reviews</div>
+        <div style="font-size: 14px; font-weight: 400; text-align: center;">powered by <span style="color: blue; font-size: 15px; font-weight: 600;">G</span><SPan style="color: #e15125; font-size: 15px; font-weight: 600;">o</SPan><SPan style="color: #fb8e55; font-size: 15px; font-weight: 600;">o</SPan><SPan style="color: blue; font-size: 15px; font-weight: 600;">g</SPan><SPan style="color: #188038; font-size: 15px; font-weight: 600;">l</SPan><span style="color: #dc422b; font-size: 15px; font-weight: 600;">e</span></div>
+        <button class="s-s-f-b-button"><a href="https://search.google.com/local/writereview?placeid=ChIJnZjZlJ0SNxARqkeE7CEGSXg" class="s-s-f-b-a">review us on</a></button>
+        </div>
+    </div>
+    <div class="testimonials-parent">
+        <div class="testimonials-innerp">
+
+    <div class="s-s-b1">
+        
+         <div class="s-s-innerp">
+         <img  src="https://lh3.googleusercontent.com/a/AATXAJxfOQSATjTc1-kV8LVla7Pf0JKT9cJyq4oOjUX1=s128-c0x00000000-cc-rp-mo" alt="" class="s-s-f-bimg">
+        <div class="user-info">
+        <a href="#">Omolola Omolabake</a>
+        <p style="font-size: 13px; font-weight: 400;">4 years ago</p>
+    </div>
+        
+       
+         <div style="margin-left: auto;"></div></div>
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        <div style="font-size: 14px; font-weight: 400;">Coming to SQI has made me believe that life has more to offer.
+Talking about being experienced in ICT rapidly, SQI deserves uncountable recommendations.
+Thank u SQI for making me believe more in myself, thanks for bringing out some qualities that I'll never think of years to come in my life.
+My heart is full of gratitude</div>
+
+    </div>
+
+    <div class="s-s-b2">
+        <div class="s-s-innerp2">
+            <img height="50" src="https://lh3.googleusercontent.com/a/AATXAJyhHGfdEPBWzRVvTv7g8b0iufmapKrkg2joeRQB=s128-c0x00000000-cc-rp-mo" alt="" class="s-s-f-bimg">
+            <div>
+        <a href="https://www.google.com/maps/contrib/111965027135984673633/reviews" style="font-size: 14px; font-weight: 700;">Cherish Ordia</a>
+        <p style="font-size: 13px; font-weight: 400; color: #716369;">4 years ago</p>
+    </div>
+        </div>
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        <div style="font-size: 14px; font-weight: 400;">It is a great place to learn. It is a condusive environment filled with loving and patient teachers,a wonderful and admirable manager and supportive and cheerful students. For the past month have been here, it's been great</div>
+    </div>
+    <div class="s-s-b3">
+        <div class="s-s-innerp2">
+            <img height="50" src="https://lh3.googleusercontent.com/a-/AOh14GjBzR2k6b4lPypTKucRW-ojHCsN0YKKyBBDBipW9A=s128-c0x00000000-cc-rp-mo" alt="" class="s-s-f-bimg">
+            <div>
+        <a href="https://www.google.com/maps/contrib/114028981282993542968/reviews" style="font-size: 14px; font-weight: 700;">Oladimeji Sodeeq</a>
+        <p style="font-size: 13px; font-weight: 400; color: #716369;">5 years ago</p>
+    </div>
+    <img height="20" src="Media/download-removebg-preview (3).png"
+    alt="" style="margin-left: auto;">
+        </div>
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        <div style="font-size: 14px; font-weight: 400;">It's an awesome place to learn. It has a serene environment, the tutors are friendly and very explanatory. I really love the place</div>
+    </div>
+    <div class="s-s-b4">
+        <div class="s-s-innerp2">
+            <img height="50" src="https://lh3.googleusercontent.com/a-/AOh14GguuevZGLx2cNiY_gJ8GCUwC7oE8eJGGgxhqwUqhQ=s128-c0x00000000-cc-rp-mo" alt="" class="s-s-f-bimg">
+            <div>
+        <a href="https://www.google.com/maps/contrib/117531996664897783625/reviews" style="font-size: 14px; font-weight: 700;">Oluwaseyi Odekomaya</a>
+        <p style="font-size: 13px; font-weight: 400; color: #716369;">5 years ago</p>
+    </div>
+    <img height="20" src="Media/download-removebg-preview (3).png"
+    alt="" style="margin-left: auto;">
+        </div>
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        <div style="font-size: 14px; font-weight: 400;">I've compared other platforms to this one to be honest and they don't measure up. The platforms that give a comparable level of the quality of skills cost a lot more and don't even offer a guarantee of access to real world project and situations... The ones available at a cheaper price so to say do not give a level of quality even close to it... Some platforms charge a lot more and yet still falter in the delivery of good contents... Another aspect that I noticed in comparison is that instructors at SQI College of ICT are actually interested in ensuring their students understand what they are learning. They take joy in ensuring the students comprehend and are able to apply what is being taught and explain in the simplest ways possible to ensure maximum comprehension....
+I'm not sharing this because I have any affiliation with SQI College of ICT, I'm doing so because it's simply the truth. If anyone else tries to make their research, they will find out that it's true too.
+Emmanuel Toluwanimi profile pictureEmmanuel Toluwanimi
+5 years ago
+SQI is one of the things I’m thankful for in my life. I’ve spent six months in SQI and I can say it’s one of the best moments in my life. The staffs are accommodating and very excellent at their job. The tutors don’t just teach, they mentor students. They make coding fun and understandable for learners. I’m able to achieve a lot enrolling with them. I’ve been able to build amazing web projects under their tutelage. ENROLL WITH SQI AND YOU WILL BE PROUD YOU DID.
+</div>
+    </div>
+    <div class="s-s-b5">
+        <div class="s-s-innerp2">
+            <img height="50" src="https://lh3.googleusercontent.com/a-/AOh14GhMlEz7F5wu-z0sta155WPMKVKyy4y-DnWx6cBH9A=s128-c0x00000000-cc-rp-mo" alt="" class="s-s-f-bimg">
+            <div>
+        <a href="https://www.google.com/maps/contrib/102536179580878142264/reviews" style="font-size: 14px; font-weight: 700;">Emmanuel Toluwanimi</a>
+        <p style="font-size: 13px; font-weight: 400; color: #716369;">5 years ago</p>
+    </div>
+    <img height="20" src="Media/download-removebg-preview (3).png"
+    alt="" style="margin-left: auto;">
+        </div>
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        <div style="font-size: 14px; font-weight: 400;">SQI is one of the things I’m thankful for in my life. I’ve spent six months in SQI and I can say it’s one of the best moments in my life. The staffs are accommodating and very excellent at their job. The tutors don’t just teach, they mentor students. They make coding fun and understandable for learners. I’m able to achieve a lot enrolling with them. I’ve been able to build amazing web projects under their tutelage. ENROLL WITH SQI AND YOU WILL BE PROUD YOU DID.
+</div>
+</div>
+    
+    </div>
+
+
+    </div>
+
+
+    
+   </section>
+
+
+
+   <section class="eighth-section">
+        
+        <div class="third-cont">
+             <p class="eighth-s-text">Why study at SQI?</p>
+            <div class="tcfd">
+                <i class="fa-solid fa-atom" style="font-size: 30px; color: #666666;  "></i>
+                <p class="eighth-s-p">Project Based Learning</p>
+                <div class="s-s-d">Our courses are practical, hands-on learning. Practice and apply knowledge with real world projects that contribute largely to your portfolio.</div>
+            </div>
+            <div class="tcsd">
+                <i class="fa-solid fa-water" style="font-size: 30px; color: #666666;"></i>
+                <p class="eighth-s-p">Physical & Virtual Class</p>
+                <div class="eighth-s-d">You can now choose physical class experience or online classroom and learn from anywhere in the world.</div>
+            </div>
+            <div class="tctd">
+                <i class="fa-solid fa-award" style="font-size: 30px; color: #666666;"></i>
+
+                <p class="eighth-s-p">Certification</p>
+                <div class="eighth-s-d">Be certified by an accredited and globally recognized institution. SQI got its accreditation in Sept 2021 from the NBTE, Nigeria.</div>
+            </div>
+            <div class="tcforthd">
+                <i class="fa-solid fa-briefcase" style="font-size: 30px; color: #666666;"></i>
+                <p class="eighth-s-p">Job Opportunity</p>
+                <div class="eighth-s-d">78.5% of our students found secure employment within three months of graduation. Students leave from learning to getting job roles</div>
+            </div>
+
+        </div>
+
+        <div class="forth-cont">
+            <div class="forth-cont-f-d">
+                <i class="fa-solid fa-book-open-reader" style="font-size: 30px; color: #666666;"></i>
+                <p class="eighth-s-p">Expert Instructors</p>
+                <div class="eighth-s-d">Get to interact with different mentors and draw from their loads of experience.</div>
+            </div>
+            <div class="forth-cont-s-d">
+                <i class="fa-solid fa-book-open" style="font-size: 30px; color: #666666;"></i>
+                <p class="eighth-s-p">Free access to our hub and community</p>
+                <div class="eighth-s-d">You will have access to our fully functional hub for co-working and working on projects, assignments and even begin a start-up.</div>
+            </div>
+            <div class="forth-cont-t-d">
+                <i class="fa-solid fa-comments" style="font-size: 30px; color: #666666;"></i>
+                <p class="eighth-s-p">Alumni Support</p>
+                <div class="eighth-s-d">Our students have access to alumni who currently work at top tech organizations in the world such as Google, Microsoft, Interswitch etc.</div>
+            </div>
+            <div class="forth-cont-forth-d">
+                <i class="fa-solid fa-book" style="font-size: 30px; color: #666666;"></i>
+                <p class="eighth-s-p">Access to study materials</p>
+                <div class="eighth-s-d">Students have access to prerecorded videos and resources they can make use of to further solidify their knowledge.</div>
+            </div>
+        </div>
+        <div class="fifth-cont"></div>
+
+    </section>
+
+
+    
+    <section class="fass">
+        <div class="fuhh">
+            <div style=" width: 40%;">
+                <h4 style="color: white; font-size: 16px; font-weight: 600; padding-top: 30px;">FAQ</h4>
+                <h2
+                    style="font-size: 39px; line-height: 46.8px; color: white; padding-top: 10px;  padding-bottom: 30px; font-weight: 500;">
+                    Frequently Asked Questions</h2>
+                <a href="#"
+                    style="border-bottom: 3px solid #D19B02; width: 100%; padding-bottom: 8px; font-size: 20px; text-decoration: none; color: #D19B02;" class="cont">Contact
+                    Us <i class="ico fa-solid fa-chevron-right"></i>
+                </a>
+            </div>
+            <div class="hipp">
+                <h2>
+                    <a href=""
+                        style=" font-size: 20px;  line-height: 30px; text-decoration: none; color: #D19B02; font-weight: 500; padding-top: 20px;">How
+                        do I get into the college</a>
+                    <div class="tuff">
+                        <p>We currently have 3 modes of study at SQI College of ICT, the National Diploma, Professional
+                            Diploma Certificate, and Ordinary Professional Certificate Program. You can join us by
+                            applying through any of the modes of study.</p>
+                    </div>
+                </h2>
+                <div class="kill">
+
+                </div>
+                <br>
+                <h2>
+                    <a href=""
+                        style=" font-size: 20px;  line-height: 30px; text-decoration: none; color: #D19B02; font-weight: 500; padding-top: 50px;">How
+                        much is the tution?</a>
+                    <div></div>
+                </h2>
+                <div class="kill">
+
+                </div>
+                <br>
+                <h2>
+                    <a href=""
+                        style=" font-size: 20px;  line-height: 30px; text-decoration: none; color: #D19B02; font-weight: 500; padding-top: 20px;">Are
+                        your classes physical or virtual</a>
+                    <div></div>
+                </h2>
+                <div class="kill">
+
+                </div>
+
+                <br>
+                <h2>
+                    <a href=""
+                        style=" font-size: 20px;  line-height: 30px; text-decoration: none; color: #D19B02; font-weight: 500; padding-top: 20px;">Will
+                        I get a job after my training?</a>
+                    <div></div>
+                </h2>
+                <div class="kill">
+
+                </div>
+    </section>
+
+    <section class="hydra">
+        <div class="anot">
+            <h4 style="font-size: 14px; line-height: 21px; font-weight: 700; color: white ; padding-top: 60px;">It’S
+                TIME FOR YOU TO TAKE YOUR CAREER TO THE NEXT LEVEL</h4>
+            <h2 style="font-size: 56px; line-height: 67.2px; font-weight: 700; color: #FFFFFF; padding-top: 30px;">Ready
+                to Get Started?</h2>
+            <div>
+
+                <p class="fax">
+                    We provide and lead others in quality education, service, industry, and character as well as
+                    discipline.
+                </p>
+
+                <div class="tbb">
+                    Join any of our Campuses : <br>
+                    Lagos • Abuja • Ibadan • Abeokuta • Ogbomosho • Osogbo • Virtual
+                </div>
+
+                <button class="sammy">Join Us Today</button><i class="icon fa-solid fa-chevron-right"></i>
+    </section>
+    <div style="background-color: #F0F1FF; padding-bottom: 100px;">
+        <div class="bunny">
+            <h2 style="font-size: 40px; line-height: 48px; font-weight: 600;">Latest News</h2>
+            <button class="blaze">Read More</button><i class="icon fa-solid fa-chevron-right"></i>
+        </div>
+
+        <section class="prime">
+            <div class="soft">
+                <img src="https://sqi.edu.ng/wp-content/uploads/2026/02/SQI1816-400x250.jpg" alt="">
+                <div style="padding: 20px;">
+                    <p
+                        style="font-size: 16px; line-height: 25.6px; font-weight: 500; text-decoration: none; padding-top: 30px; ">
+                        SQI COLLEGE OF ICT ANNOUNCES 2026/2027 POST-UTME SCREENING EXERCISE</p>
+                    <span style="color: #FAA191;" class="feran">Jun 2, 2026</span>
+                    <p class="rea">Dreaming of a future in tech? SQI College of ICT is now accepting applications for
+                        its 2026/2027 Post-UTME and Direct Entry screening with opportunities open to candidates who
+                        scored 100 and above, including those changing institutions via Joint Admissions and
+                        Matriculation Board…</p>
+                </div>
+            </div>
+            <div class="soft">
+                <img src="https://sqi.edu.ng/wp-content/uploads/2026/02/IMG-20250712-WA0024-400x250.jpg" alt="">
+                <div style="padding: 20px;">
+                    <p
+                        style="font-size: 16px; line-height: 25.6px; font-weight: 500; text-decoration: none; padding-top: 30px;">
+                        SQI College of ICT Partners with Ladoke Akintola University of Technology LAUTECH</p>
+                    <span style="color: #FAA191;" class="feran">Feb 13, 2026</span>
+                    <p class="rea">SQI College of ICT is pleased to formally announce a strategic academic collaboration
+                        with Ladoke Akintola University of Technology (LAUTECH) for the support and coordination of
+                        selected LAUTECH Part-Time Degree Programmes.This collaboration will operate at: SQI...</p>
+                </div>
+            </div>
+            <div class="soft">
+                <img src="https://sqi.edu.ng/wp-content/uploads/2025/11/SQI4348-convocation-400x250.jpg" alt="">
+                <div style="padding: 20px;">
+                    <p
+                        style="font-size: 16px; line-height: 25.6px; font-weight: 500; text-decoration: none; padding-top: 30px;">
+                        SQI College of ICT Holds First Convocation, Honours Pioneer Graduates</p>
+                    <span style="color: #FAA191;" class="feran">Nov 22, 2025</span>
+                    <p class="rea">
+                        SQI College of ICT, Ogbomoso, marked a landmark achievement on Saturday, 22nd November 2025, as
+                        the institution held its maiden Convocation Ceremony at its main campus along Old Ilorin Road,
+                        Ogbomoso. The event, which drew dignitaries from across Nigeria’s academic...
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section>
+        <div class="kolad">
+            <div class="kolade">
+                <p style="color: #00208B; font-size: 19px; line-height: 22.8px; font-weight: 600;">Hello, we’re SQI
+                    College of ICT</p>
+                <p style="color: black; padding-top: 15px;">We provide and lead others in quality ICT education.</p>
+                <i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-x-twitter"></i><i
+                    class="fa-brands fa-linkedin-in"></i><i class="fa-brands fa-youtube"></i><i
+                    class="fa-brands fa-instagram"></i>
+                <h4>
+                    <strong style="font-size: 15px;">Send us a mail</strong>
+                </h4>
+
+                <p style="color: #81B9F3; font-weight: 500; padding-top: 15px; font-size: 14px;">enquiry@sqi.edu.ng</p>
+                <p style="color: #81B9F3; font-weight: 500; padding-top: 15px; font-size: 14px;">admissions@sqi.edu.ng
+                </p>
+                <p style="color: #81B9F3; font-weight: 500; padding-top: 15px; font-size: 14px;">
+                    examsandrecords@sqi.edu.ng</p>
+                <p style="color: #81B9F3; font-weight: 500; padding-top: 15px; font-size: 14px;">rector@sqi.edu.ng</p>
+                <p style="color: #81B9F3; font-weight: 500; padding-top: 15px; font-size: 14px;">partnerships@sqi.edu.ng
+                </p>
+                <p style="color: #81B9F3; font-weight: 500; padding-top: 15px; font-size: 14px;">internships@sqi.edu.ng
+                </p>
+
+            </div>
+            <div class="kolade">
+                <h3 class="pooky">Quick Links</h3>
+                <p style="padding-top: 26px; font-size: 14px; color: #81756D;">Application Portal</p>
+                <p style="padding-top: 26px; font-size: 14px; color: #81756D;">Professional Courses</p>
+                <p style="padding-top: 26px; font-size: 14px; color: #81756D;">ND Courses</p>
+                <p style="padding-top: 26px; font-size: 14px; color: #81756D;">Campus Info</p>
+                <p style="padding-top: 26px; font-size: 14px; color: #81756D;">Accomodation</p>
+                <p style="padding-top: 26px; font-size: 14px; color: #81756D;">SQI Scholarships</p>
+                <p style="padding-top: 26px; font-size: 14px; color: #81756D;">SQI Anthem</p>
+                <p style="padding-top: 26px; font-size: 14px; color: #81756D;">Donate</p>
+                <p style="padding-top: 26px; font-size: 14px; color: #81756D;">Student Portal</p>
+            </div>
+
+            <div class="kolade">
+                <h3 class="pooky">Ogbomosho</h3>
+                <p style="color: #81756D; padding-top: 35px; font-size: 14px;">Old Ilorin Road,
+                    Opposite Yoaco Filling Station,<br>
+                    Yoaco, Ogbomoso.</p>
+                <p style="padding-top: 30px; font-size: 14px; font-weight: 700; color: #81756D;">0906 281 9991, 0906 281
+                    9993</p>
+                <p style="color: #00208B; padding-top: 30px; font-size: 14px; font-weight: 500;">Locate On The Map</p>
+                <p style="padding-top: 33px; font-weight: 600;">Lagos</p><br>
+                <p style="font-size: 14px; font-weight: 500; color: #81756D;">Suite 219, Opic Plaza, Mobolaji Bank <br>
+                    Anthony Way, beside Sheraton Hotel, Ikeja, Lagos</p>
+                <p style="padding-top: 30px; font-size: 14px; font-weight: 700; color: #81756D;">0906 281 9999</p>
+                <p style="color: #00208B; padding-top: 30px; font-size: 14px; font-weight: 500;">Locate on the map</p>
+                <p style="padding-top: 30px; font-weight: 600;">Virtual</p>
+                <p style="color: #81756D; padding-top: 30px;font-size: 14px; font-weight: 700;">0906 281 9992</p>
+                <p style="color: #00208B; padding-top: 30px; font-size: 14px; font-weight: 500;">Locate on the map</p>
+            </div>
+
+            <div class="kolade">
+                <h3 class="pooky">Ibadan</h3>
+                <p style="color: #81756D; padding-top: 35px; font-size: 14px;">First Floor, H25 <br>
+                    Heritage Mall,<br>
+                    Opposite Central Bank of Nigeria,<br>
+                    Dugbe, Ibadan.</p>
+                <p style="padding-top: 30px; font-size: 14px; font-weight: 700; color: #81756D;">0906 281 9994</p>
+                <p style="color: #00208B; padding-top: 30px; font-size: 14px; font-weight: 500;">Locate on the map</p>
+                <p style="font-size: 14px; font-weight: 500; color: #81756D; padding-top: 30px;">Christianah Oyinade
+                    Ajoke House, beside First Bank, Arisekola Central Mosque, Opposite Jaiz bank, Idi Ape, Iwo road,
+                    Ibadan.</p>
+                <p style="padding-top: 30px; font-size: 14px; font-weight: 700; color: #81756D;">0906 281 9995</p>
+                <p style="color: #00208B; padding-top: 30px; font-size: 14px; font-weight: 500;">Locate on the map</p>
+                <p style="font-size: 14px; font-weight: 500; color: #81756D; padding-top: 30px;">Haier Thermocool
+                    Building, opposite SAO filling station, Challenge, Ibadan, Oyo State.</p>
+                <p style="color: #81756D; padding-top: 30px;font-size: 14px; font-weight: 700;">0906 281 9992</p>
+                <p style="color: #00208B; padding-top: 30px; font-size: 14px; font-weight: 500;">Locate on the map</p>
+            </div>
+            <div class="kolade">
+                <h3 class="pooky">Abeokuta</h3>
+                <p style="color: #81756D; padding-top: 35px; font-size: 14px;">First floor, OPIC Tower building,
+                    Okeilewo, Abeokuta.</p>
+                <p style="color: #81756D; padding-top: 30px;font-size: 14px; font-weight: 700;">0906 281 9996</p>
+                <p style="color: #00208B; padding-top: 30px; font-size: 14px; font-weight: 500;">Locate on the map</p>
+                <p style="padding-top: 33px; font-weight: 600;">Osogbo</p>
+                <p style="font-size: 14px; font-weight: 500; color: #81756D; padding-top: 30px;">Opposite Jaiz bank,
+                    Ogo-Oluwa, Osogbo</p>
+                <p style="color: #81756D; padding-top: 30px;font-size: 14px; font-weight: 700;">090 628 20000</p>
+                <p style="color: #00208B; padding-top: 30px; font-size: 14px; font-weight: 500;">Locate on the map</p>
+                <p style="padding-top: 33px; font-weight: 600;">Abuja</p>
+                <p style="font-size: 14px; font-weight: 500; color: #81756D; padding-top: 30px;">Suite Banking Hall SF,
+                    Febson Mall,
+                    Wuse Zone 4, Abuja</p>
+                <p style="color: #81756D; padding-top: 30px;font-size: 14px; font-weight: 700;">090 628 20000</p>
+                <p style="color: #00208B; padding-top: 30px; font-size: 14px; font-weight: 500;">Locate on the map</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="foote">
+                <p style="font-weight: 500; color: white;">Copyright © 2026 | SQI ICT Consultants | Powered by Edozzier
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
